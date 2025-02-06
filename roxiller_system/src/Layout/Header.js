@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 const Header = () => {
-  const [public_url] = useState('http://localhost:3000/');
+  const [public_url] = useState('http://localhost:3002/');
 
   return (
     <div>
@@ -44,17 +44,7 @@ const Header = () => {
                   </span>
                 </a>
               </div>
-              <button
-                type="button"
-                className="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger"
-                id="topnav-hamburger-icon"
-              >
-                <span className="hamburger-icon">
-                  <span />
-                  <span />
-                  <span />
-                </span>
-              </button>
+             
               {/* App Search*/}
               <form className="app-search d-none d-md-block">
                 <div

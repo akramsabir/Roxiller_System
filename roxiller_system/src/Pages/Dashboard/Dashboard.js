@@ -1,5 +1,7 @@
 import React from "react";
 
+import TransactionTable from "./TranscationTable";
+
 const Dashboard = () => {
   return (
     <div className="main-content">
@@ -8,12 +10,18 @@ const Dashboard = () => {
           <div className="row">
             <div className="col">
               <div className="h-100">
-                <div className="row"></div>
+                <div className="row">
+                  <div className="col-xl-12">
+                    <TransactionTable />
+                  </div>
+                
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
