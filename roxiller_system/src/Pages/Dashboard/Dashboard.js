@@ -3,6 +3,7 @@ import React from "react";
 import TransactionTable from "./TranscationTable";
 import StatusChart from "./StatusChart";
 import ProductsStatistics from "./ProductsStatistics";
+import DonutCharts from "./DonutCharts";
 
 const Dashboard = () => {
   return (
@@ -23,6 +24,11 @@ const Dashboard = () => {
                   </div>
                   <div className="col-xl-6">
                     <ProductsStatistics />
+                  </div>
+                  <div className="col-xl-6">
+                    <div className="card card-height-100">
+                      <DonutCharts />
+                    </div>
                   </div>
                 
                 </div>
