@@ -1,6 +1,7 @@
 import React from "react";
 
 import TransactionTable from "./TranscationTable";
+import StatusChart from "./StatusChart";
 
 const Dashboard = () => {
   return (
@@ -13,6 +14,11 @@ const Dashboard = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <TransactionTable />
+                  </div>
+                  <div className="col-xl-12">
+                    <div className="card">
+                      <StatusChart />
+                    </div>
                   </div>
                 
                 </div>
